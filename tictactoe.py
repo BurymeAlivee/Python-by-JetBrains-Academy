@@ -86,7 +86,7 @@ def x_x():
             elif start_[1] > 3 or start_[1] < 1:
                 print("Coordinates should be from 1 to 3!")
                 continue
-            elif start_[2] >= 0 or start_[2] <= 0:
+            elif len(start_) > 2:
                 print("You should enter 2 numbers!")
                 continue
         except ValueError:
@@ -113,7 +113,7 @@ def o_o():
             elif start_[1] > 3 or start_[1] < 1:
                 print("Coordinates should be from 1 to 3!")
                 continue
-            elif start_[2] >= 0 or start_[2] <= 0:
+            elif len(start_) > 2:
                 print("You should enter 2 numbers!")
                 continue
         except ValueError:
